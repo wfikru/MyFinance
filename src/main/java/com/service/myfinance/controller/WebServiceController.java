@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.service.myfinance.service.RestService;
 
-
 @Controller
 public class WebServiceController {
 
@@ -19,7 +18,7 @@ public class WebServiceController {
 		this.service = service;
 	}
 
-	@RequestMapping("/finance")
+	@RequestMapping("/team6_myfinance")
 	public @ResponseBody String Validate(
 			@RequestParam("ccn") String creditCardNumber,
 			@RequestParam("address") String address,
